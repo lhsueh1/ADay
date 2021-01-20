@@ -6,13 +6,15 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1055c4b0-a561-42ce-8907-09989370e311" name="Default Changelist" comment="" />
+    <list default="true" id="1055c4b0-a561-42ce-8907-09989370e311" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[moto_API_29]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -30,7 +32,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/AndroidStudioProjects/LH01" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="memory.settings.postsync.do.not.ask.for.project" value="true" />
     <property name="memory.settings.postsync.last.time.stamp" value="1611162430508" />
     <property name="settings.editor.selected.configurable" value="memory.settings" />
@@ -127,6 +129,22 @@
       <screen x="70" y="28" width="1850" height="1052" />
     </state>
     <state x="778" y="312" width="424" height="490" key="FileChooserDialogImpl/70.28.1850.1052@70.28.1850.1052" timestamp="1611163616216" />
+    <state width="902" height="275" key="GridCell.Tab.0.bottom" timestamp="1611165447259">
+      <screen x="70" y="28" width="1850" height="1052" />
+    </state>
+    <state width="902" height="275" key="GridCell.Tab.0.bottom/70.28.1850.1052@70.28.1850.1052" timestamp="1611165447259" />
+    <state width="902" height="275" key="GridCell.Tab.0.center" timestamp="1611165447258">
+      <screen x="70" y="28" width="1850" height="1052" />
+    </state>
+    <state width="902" height="275" key="GridCell.Tab.0.center/70.28.1850.1052@70.28.1850.1052" timestamp="1611165447258" />
+    <state width="902" height="275" key="GridCell.Tab.0.left" timestamp="1611165447258">
+      <screen x="70" y="28" width="1850" height="1052" />
+    </state>
+    <state width="902" height="275" key="GridCell.Tab.0.left/70.28.1850.1052@70.28.1850.1052" timestamp="1611165447258" />
+    <state width="902" height="275" key="GridCell.Tab.0.right" timestamp="1611165447258">
+      <screen x="70" y="28" width="1850" height="1052" />
+    </state>
+    <state width="902" height="275" key="GridCell.Tab.0.right/70.28.1850.1052@70.28.1850.1052" timestamp="1611165447258" />
     <state x="394" y="123" key="SettingsEditor" timestamp="1611162504674">
       <screen x="0" y="25" width="1680" height="965" />
     </state>
