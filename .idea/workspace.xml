@@ -7,7 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1055c4b0-a561-42ce-8907-09989370e311" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/leisure/aday/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/leisure/aday/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +45,7 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="ADay.app" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
@@ -116,6 +117,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="657" y="155" width="666" height="803" key="#app" timestamp="1611163527736">
+      <screen x="70" y="28" width="1850" height="1052" />
+    </state>
+    <state x="657" y="155" width="666" height="803" key="#app/70.28.1850.1052@70.28.1850.1052" timestamp="1611163527736" />
     <state x="394" y="123" key="SettingsEditor" timestamp="1611162504674">
       <screen x="0" y="25" width="1680" height="965" />
     </state>
