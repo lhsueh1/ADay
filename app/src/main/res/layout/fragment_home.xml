@@ -113,6 +113,7 @@
         android:layout_marginBottom="16dp"
         android:text="Switch"
         app:layout_constraintBottom_toTopOf="@+id/switch26"
+        app:layout_constraintStart_toEndOf="@id/guideline5"
         tools:ignore="HardcodedText,MissingConstraints,UseSwitchCompatOrMaterialXml" />
 
     <Switch
