@@ -1,0 +1,20 @@
+com/example/aday/ui/home/HomeFragment.java
+ com.example.aday.ui.home.HomeFragment
+ com.example.aday.ui.home.HomeFragment$1
+com/example/aday/ui/home/HomeViewModel.java
+ com.example.aday.ui.home.HomeViewModel
+com/example/aday/ui/gallery/GalleryFragment.java
+ com.example.aday.ui.gallery.GalleryFragment
+ com.example.aday.ui.gallery.GalleryFragment$1
+com/example/aday/ui/slideshow/SlideshowFragment.java
+ com.example.aday.ui.slideshow.SlideshowFragment
+ com.example.aday.ui.slideshow.SlideshowFragment$1
+com/example/aday/ui/slideshow/SlideshowViewModel.java
+ com.example.aday.ui.slideshow.SlideshowViewModel
+com/example/aday/BuildConfig.java
+ com.example.aday.BuildConfig
+com/example/aday/MainActivity.java
+ com.example.aday.MainActivity
+ com.example.aday.MainActivity$1
+com/example/aday/ui/gallery/GalleryViewModel.java
+ com.example.aday.ui.gallery.GalleryViewModel
