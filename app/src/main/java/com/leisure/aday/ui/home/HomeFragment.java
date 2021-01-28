@@ -1,7 +1,10 @@
 package com.leisure.aday.ui.home;
 
+import android.app.Service;
 import android.content.res.Resources;
 import android.os.Bundle;
+import android.os.VibrationEffect;
+import android.os.Vibrator;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -236,6 +239,9 @@ public class HomeFragment extends Fragment {
             }
 
             buttonView.setText(R.string.nav_header_title);
+
+            Vibrator v = (Vibrator) requireActivity().getSystemService(Service.VIBRATOR_SERVICE);
+            v.vibrate(VibrationEffect.createOneShot(30, VibrationEffect.DEFAULT_AMPLITUDE));
         }
     };
 
