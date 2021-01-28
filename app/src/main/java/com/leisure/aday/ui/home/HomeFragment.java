@@ -81,7 +81,7 @@ public class HomeFragment extends Fragment {
         @Override
         public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
             int randomSwitch = (int) (Math.random() * 36);
-            isChecked = Math.random() < 0.5;
+            isChecked = Math.random() < 0.3;
             switch (randomSwitch) {
                 case 0:
                     switch00.setChecked(isChecked);
