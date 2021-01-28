@@ -9,6 +9,7 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.widget.SwitchCompat;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
@@ -18,6 +19,9 @@ import com.leisure.aday.R;
 public class HomeFragment extends Fragment {
 
     private HomeViewModel homeViewModel;
+
+    SwitchCompat switch00;
+    SwitchCompat switch01;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
@@ -31,6 +35,19 @@ public class HomeFragment extends Fragment {
                 textView.setText(s);
             }
         });
+
+        System.out.println("test");
+
+        switch00 = root.findViewById(R.id.switch00);
+        switch00.setOnCheckedChangeListener((buttonView, isChecked) -> {
+            if (isChecked) {
+                System.out.println("isCheck = " + isChecked);
+            }
+            switch01.setChecked(switch00.isChecked());
+            System.out.println("test");
+        });
+
+        switch01 = root.findViewById(R.id.switch01);
         return root;
 
     }
