@@ -43,10 +43,10 @@ public class HomeFragment extends Fragment {
             if (isChecked) {
                 System.out.println("isCheck = " + isChecked);
             }
+
             switch01.setChecked(switch00.isChecked());
             System.out.println("test");
         });
-
         switch01 = root.findViewById(R.id.switch01);
         return root;
 
