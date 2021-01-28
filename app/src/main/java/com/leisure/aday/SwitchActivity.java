@@ -21,17 +21,30 @@ public class SwitchActivity extends AppCompatActivity {
 
 
         switch00 = findViewById(R.id.switch00);
-        switch00.setOnClickListener(new View.OnClickListener() {
+        //switch00.setChecked(true);
+
+
+
+        /*switch00.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 switch01.setChecked(switch00.isChecked());
                 System.out.println("test");
             }
-        });
+        });*/
+
+
+
+
+
+
+
 
         switch01 = findViewById(R.id.switch01);
 
 
     }
+
+
 
 }
