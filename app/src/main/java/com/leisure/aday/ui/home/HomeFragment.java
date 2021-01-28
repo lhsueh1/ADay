@@ -276,7 +276,6 @@ public class HomeFragment extends Fragment {
         switch35.setOnCheckedChangeListener(switchListener);
     }
 
-
     private void findViews(View root) {
         switch00 = root.findViewById(R.id.switch00);
         switch01 = root.findViewById(R.id.switch01);

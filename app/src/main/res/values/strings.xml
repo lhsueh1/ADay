@@ -11,6 +11,48 @@
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
     <string name="title_activity_test">TestActivity</string>
+
+    <string-array name="names">
+        <item>Jacob</item>
+        <item>Michael</item>
+        <item>Matthew</item>
+        <item>Joshua</item>
+        <item>Christopher</item>
+        <item>Nicholas</item>
+        <item>Andrew</item>
+        <item>Joseph</item>
+        <item>Daniel</item>
+        <item>William</item>
+        <item>Anthony</item>
+        <item>David</item>
+        <item>Tyler</item>
+        <item>John</item>
+        <item>Ryan</item>
+        <item>Zachary</item>
+        <item>Ethan</item>
+        <item>Brandon</item>
+        <item>Emily</item>
+        <item>Madison</item>
+        <item>Hannah</item>
+        <item>Ashley</item>
+        <item>Alexis</item>
+        <item>Sarah</item>
+        <item>Samantha</item>
+        <item>Abigail</item>
+        <item>Elizabeth</item>
+        <item>Olivia</item>
+        <item>Jessica</item>
+        <item>Taylor</item>
+        <item>Emma</item>
+        <item>Lauren</item>
+        <item>Grace</item>
+        <item>Kayla</item>
+        <item>Alyssa</item>
+        <item>Brianna</item>
+    </string-array>
+
+
+
     <!--
     This string is used for square devices and overridden by hello_world in
     values-round/strings.xml for round devices.
