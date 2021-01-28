@@ -28,7 +28,7 @@
                 app:layout_constraintEnd_toStartOf="@id/guideline5"
                 tools:layout_editor_absoluteX="283dp"
                 tools:ignore="HardcodedText"
-                android:gravity="right" />
+                android:gravity="end" />
             <androidx.appcompat.widget.SwitchCompat
                 android:id="@+id/switch34"
                 android:layout_width="wrap_content"
@@ -38,7 +38,7 @@
                 app:layout_constraintBottom_toTopOf="@+id/switch35"
                 app:layout_constraintEnd_toStartOf="@id/guideline5"
                 tools:ignore="HardcodedText"
-                android:gravity="right" />
+                android:gravity="end" />
             <androidx.appcompat.widget.SwitchCompat
                 android:id="@+id/switch33"
                 android:layout_width="wrap_content"
@@ -48,7 +48,7 @@
                 app:layout_constraintBottom_toTopOf="@+id/switch34"
                 app:layout_constraintEnd_toStartOf="@id/guideline5"
                 tools:ignore="HardcodedText"
-                android:gravity="right" />
+                android:gravity="end" />
             <androidx.appcompat.widget.SwitchCompat
                 android:id="@+id/switch32"
                 android:layout_width="wrap_content"
@@ -58,7 +58,7 @@
                 app:layout_constraintBottom_toTopOf="@+id/switch33"
                 app:layout_constraintEnd_toStartOf="@id/guideline5"
                 tools:ignore="HardcodedText"
-                android:gravity="right" />
+                android:gravity="end" />
             <androidx.appcompat.widget.SwitchCompat
                 android:id="@+id/switch31"
                 android:layout_width="wrap_content"
@@ -68,7 +68,7 @@
                 app:layout_constraintBottom_toTopOf="@+id/switch32"
                 app:layout_constraintEnd_toStartOf="@id/guideline5"
                 tools:ignore="HardcodedText"
-                android:gravity="right" />
+                android:gravity="end" />
             <androidx.appcompat.widget.SwitchCompat
                 android:id="@+id/switch30"
                 android:layout_width="wrap_content"
@@ -78,7 +78,7 @@
                 app:layout_constraintBottom_toTopOf="@+id/switch31"
                 app:layout_constraintEnd_toStartOf="@id/guideline5"
                 tools:ignore="HardcodedText"
-                android:gravity="right" />
+                android:gravity="end" />
             <androidx.appcompat.widget.SwitchCompat
                 android:id="@+id/switch29"
                 android:layout_width="wrap_content"
@@ -88,7 +88,7 @@
                 app:layout_constraintBottom_toTopOf="@+id/switch30"
                 app:layout_constraintEnd_toStartOf="@id/guideline5"
                 tools:ignore="HardcodedText"
-                android:gravity="right" />
+                android:gravity="end" />
             <androidx.appcompat.widget.SwitchCompat
                 android:id="@+id/switch28"
                 android:layout_width="wrap_content"
@@ -98,7 +98,7 @@
                 app:layout_constraintBottom_toTopOf="@+id/switch29"
                 app:layout_constraintEnd_toStartOf="@id/guideline5"
                 tools:ignore="HardcodedText"
-                android:gravity="right" />
+                android:gravity="end" />
             <androidx.appcompat.widget.SwitchCompat
                 android:id="@+id/switch27"
                 android:layout_width="wrap_content"
@@ -108,7 +108,7 @@
                 app:layout_constraintBottom_toTopOf="@+id/switch28"
                 app:layout_constraintEnd_toStartOf="@id/guideline5"
                 tools:ignore="HardcodedText"
-                android:gravity="right" />
+                android:gravity="end" />
             <androidx.appcompat.widget.SwitchCompat
                 android:id="@+id/switch26"
                 android:layout_width="wrap_content"
@@ -118,7 +118,7 @@
                 app:layout_constraintBottom_toTopOf="@+id/switch27"
                 app:layout_constraintEnd_toStartOf="@id/guideline5"
                 tools:ignore="HardcodedText,UseSwitchCompatOrMaterialXml"
-                android:gravity="right"/>
+                android:gravity="end"/>
 
             <androidx.appcompat.widget.SwitchCompat
                 android:id="@+id/switch25"
@@ -129,7 +129,7 @@
                 app:layout_constraintBottom_toTopOf="@+id/switch26"
                 app:layout_constraintEnd_toStartOf="@id/guideline5"
                 tools:ignore="HardcodedText,MissingConstraints,UseSwitchCompatOrMaterialXml"
-                android:gravity="right"/>
+                android:gravity="end"/>
 
             <androidx.appcompat.widget.SwitchCompat
                 android:id="@+id/switch24"
@@ -140,7 +140,7 @@
                 app:layout_constraintBottom_toTopOf="@+id/switch25"
                 app:layout_constraintEnd_toStartOf="@id/guideline5"
                 tools:ignore="HardcodedText"
-                android:gravity="right" />
+                android:gravity="end" />
             <androidx.appcompat.widget.SwitchCompat
                 android:id="@+id/switch23"
                 android:layout_width="wrap_content"
@@ -149,7 +149,7 @@
                 app:layout_constraintBottom_toTopOf="@id/guideline2"
                 app:layout_constraintEnd_toStartOf="@id/guideline3"
                 tools:ignore="HardcodedText"
-                android:gravity="right" />
+                android:gravity="end" />
             <androidx.appcompat.widget.SwitchCompat
                 android:id="@+id/switch22"
                 android:layout_width="wrap_content"
@@ -159,7 +159,7 @@
                 app:layout_constraintBottom_toTopOf="@+id/switch23"
                 app:layout_constraintEnd_toStartOf="@+id/guideline3"
                 tools:ignore="HardcodedText"
-                android:gravity="right" />
+                android:gravity="end" />
             <androidx.appcompat.widget.SwitchCompat
                 android:id="@+id/switch21"
                 android:layout_width="wrap_content"
@@ -169,7 +169,7 @@
                 app:layout_constraintBottom_toTopOf="@+id/switch22"
                 app:layout_constraintEnd_toStartOf="@+id/guideline3"
                 tools:ignore="HardcodedText"
-                android:gravity="right" />
+                android:gravity="end" />
             <androidx.appcompat.widget.SwitchCompat
                 android:id="@+id/switch20"
                 android:layout_width="wrap_content"
@@ -179,7 +179,7 @@
                 app:layout_constraintBottom_toTopOf="@+id/switch21"
                 app:layout_constraintEnd_toStartOf="@+id/guideline3"
                 tools:ignore="HardcodedText"
-                android:gravity="right" />
+                android:gravity="end" />
             <androidx.appcompat.widget.SwitchCompat
                 android:id="@+id/switch19"
                 android:layout_width="wrap_content"
@@ -189,7 +189,7 @@
                 app:layout_constraintBottom_toTopOf="@+id/switch20"
                 app:layout_constraintEnd_toStartOf="@+id/guideline3"
                 tools:ignore="HardcodedText"
-                android:gravity="right" />
+                android:gravity="end" />
             <androidx.appcompat.widget.SwitchCompat
                 android:id="@+id/switch18"
                 android:layout_width="wrap_content"
@@ -199,7 +199,7 @@
                 app:layout_constraintBottom_toTopOf="@+id/switch19"
                 app:layout_constraintEnd_toStartOf="@+id/guideline3"
                 tools:ignore="HardcodedText"
-                android:gravity="right" />
+                android:gravity="end" />
             <androidx.appcompat.widget.SwitchCompat
                 android:id="@+id/switch17"
                 android:layout_width="wrap_content"
@@ -209,7 +209,7 @@
                 app:layout_constraintBottom_toTopOf="@+id/switch18"
                 app:layout_constraintEnd_toStartOf="@+id/guideline3"
                 tools:ignore="HardcodedText"
-                android:gravity="right" />
+                android:gravity="end" />
             <androidx.appcompat.widget.SwitchCompat
                 android:id="@+id/switch16"
                 android:layout_width="wrap_content"
@@ -219,7 +219,7 @@
                 app:layout_constraintBottom_toTopOf="@+id/switch17"
                 app:layout_constraintEnd_toStartOf="@+id/guideline3"
                 tools:ignore="HardcodedText"
-                android:gravity="right" />
+                android:gravity="end" />
             <androidx.appcompat.widget.SwitchCompat
                 android:id="@+id/switch15"
                 android:layout_width="wrap_content"
@@ -229,7 +229,7 @@
                 app:layout_constraintBottom_toTopOf="@+id/switch16"
                 app:layout_constraintEnd_toStartOf="@+id/guideline3"
                 tools:ignore="HardcodedText"
-                android:gravity="right" />
+                android:gravity="end" />
             <androidx.appcompat.widget.SwitchCompat
                 android:id="@+id/switch14"
                 android:layout_width="wrap_content"
@@ -239,7 +239,7 @@
                 app:layout_constraintBottom_toTopOf="@+id/switch15"
                 app:layout_constraintEnd_toStartOf="@+id/guideline3"
                 tools:ignore="HardcodedText"
-                android:gravity="right" />
+                android:gravity="end" />
             <androidx.appcompat.widget.SwitchCompat
                 android:id="@+id/switch13"
                 android:layout_width="wrap_content"
@@ -249,7 +249,7 @@
                 app:layout_constraintBottom_toTopOf="@+id/switch14"
                 app:layout_constraintEnd_toStartOf="@+id/guideline3"
                 tools:ignore="HardcodedText"
-                android:gravity="right" />
+                android:gravity="end" />
             <androidx.appcompat.widget.SwitchCompat
                 android:id="@+id/switch12"
                 android:layout_width="wrap_content"
@@ -259,7 +259,7 @@
                 app:layout_constraintBottom_toTopOf="@+id/switch13"
                 app:layout_constraintEnd_toStartOf="@+id/guideline3"
                 tools:ignore="HardcodedText"
-                android:gravity="right" />
+                android:gravity="end" />
             <androidx.appcompat.widget.SwitchCompat
                 android:id="@+id/switch11"
                 android:layout_width="wrap_content"
@@ -268,7 +268,7 @@
                 app:layout_constraintBottom_toTopOf="@id/guideline2"
                 app:layout_constraintEnd_toStartOf="@id/guideline"
                 tools:ignore="HardcodedText"
-                android:gravity="right" />
+                android:gravity="end" />
             <androidx.appcompat.widget.SwitchCompat
                 android:id="@+id/switch10"
                 android:layout_width="wrap_content"
@@ -278,7 +278,7 @@
                 app:layout_constraintBottom_toTopOf="@+id/switch11"
                 app:layout_constraintEnd_toStartOf="@+id/guideline"
                 tools:ignore="HardcodedText"
-                android:gravity="right" />
+                android:gravity="end" />
             <androidx.appcompat.widget.SwitchCompat
                 android:id="@+id/switch09"
                 android:layout_width="wrap_content"
@@ -288,7 +288,7 @@
                 app:layout_constraintBottom_toTopOf="@+id/switch10"
                 app:layout_constraintEnd_toStartOf="@+id/guideline"
                 tools:ignore="HardcodedText"
-                android:gravity="right" />
+                android:gravity="end" />
             <androidx.appcompat.widget.SwitchCompat
                 android:id="@+id/switch08"
                 android:layout_width="wrap_content"
@@ -298,7 +298,7 @@
                 app:layout_constraintBottom_toTopOf="@+id/switch09"
                 app:layout_constraintEnd_toStartOf="@+id/guideline"
                 tools:ignore="HardcodedText"
-                android:gravity="right" />
+                android:gravity="end" />
             <androidx.appcompat.widget.SwitchCompat
                 android:id="@+id/switch07"
                 android:layout_width="wrap_content"
@@ -308,7 +308,7 @@
                 app:layout_constraintBottom_toTopOf="@+id/switch08"
                 app:layout_constraintEnd_toStartOf="@+id/guideline"
                 tools:ignore="HardcodedText"
-                android:gravity="right" />
+                android:gravity="end" />
             <androidx.appcompat.widget.SwitchCompat
                 android:id="@+id/switch06"
                 android:layout_width="wrap_content"
@@ -318,7 +318,7 @@
                 app:layout_constraintBottom_toTopOf="@+id/switch07"
                 app:layout_constraintEnd_toStartOf="@+id/guideline"
                 tools:ignore="HardcodedText"
-                android:gravity="right" />
+                android:gravity="end" />
             <androidx.appcompat.widget.SwitchCompat
                 android:id="@+id/switch05"
                 android:layout_width="wrap_content"
@@ -328,7 +328,7 @@
                 app:layout_constraintBottom_toTopOf="@+id/switch06"
                 app:layout_constraintEnd_toStartOf="@+id/guideline"
                 tools:ignore="HardcodedText"
-                android:gravity="right" />
+                android:gravity="end" />
             <androidx.appcompat.widget.SwitchCompat
                 android:id="@+id/switch04"
                 android:layout_width="wrap_content"
@@ -338,7 +338,7 @@
                 app:layout_constraintBottom_toTopOf="@+id/switch05"
                 app:layout_constraintEnd_toStartOf="@+id/guideline"
                 tools:ignore="HardcodedText"
-                android:gravity="right" />
+                android:gravity="end" />
             <androidx.appcompat.widget.SwitchCompat
                 android:id="@+id/switch03"
                 android:layout_width="wrap_content"
@@ -348,7 +348,7 @@
                 app:layout_constraintBottom_toTopOf="@+id/switch04"
                 app:layout_constraintEnd_toStartOf="@+id/guideline"
                 tools:ignore="HardcodedText"
-                android:gravity="right" />
+                android:gravity="end" />
             <androidx.appcompat.widget.SwitchCompat
                 android:id="@+id/switch02"
                 android:layout_width="wrap_content"
@@ -358,7 +358,7 @@
                 app:layout_constraintBottom_toTopOf="@+id/switch03"
                 app:layout_constraintEnd_toStartOf="@+id/guideline"
                 tools:ignore="HardcodedText"
-                android:gravity="right" />
+                android:gravity="end" />
             <androidx.appcompat.widget.SwitchCompat
                 android:id="@+id/switch01"
                 android:layout_width="wrap_content"
@@ -368,14 +368,14 @@
                 app:layout_constraintBottom_toTopOf="@+id/switch02"
                 app:layout_constraintEnd_toStartOf="@+id/guideline"
                 tools:ignore="HardcodedText"
-                android:gravity="right" />
+                android:gravity="end" />
 
             <androidx.appcompat.widget.SwitchCompat
                 android:id="@+id/switch00"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="16dp"
-                android:gravity="right"
+                android:gravity="end"
                 android:text="Switch"
                 app:layout_constraintBottom_toTopOf="@+id/switch01"
                 app:layout_constraintEnd_toStartOf="@+id/guideline"
@@ -388,21 +388,21 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                app:layout_constraintGuide_percent="0.27" />
+                app:layout_constraintGuide_percent="0.31" />
 
             <androidx.constraintlayout.widget.Guideline
                 android:id="@+id/guideline3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                app:layout_constraintGuide_percent="0.62" />
+                app:layout_constraintGuide_percent="0.65" />
 
             <androidx.constraintlayout.widget.Guideline
                 android:id="@+id/guideline5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                app:layout_constraintGuide_percent="0.95" />
+                app:layout_constraintGuide_percent="0.98" />
 
             <androidx.constraintlayout.widget.Guideline
                 android:id="@+id/guideline2"
