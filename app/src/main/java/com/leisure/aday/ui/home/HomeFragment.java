@@ -1,5 +1,6 @@
 package com.leisure.aday.ui.home;
 
+import android.content.res.Resources;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -57,6 +58,8 @@ public class HomeFragment extends Fragment {
     SwitchCompat switch34;
     SwitchCompat switch35;
 
+    String[] names;
+
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
         homeViewModel =
@@ -73,6 +76,8 @@ public class HomeFragment extends Fragment {
         findViews(root);
         setOnCheckedChangeListeners();
 
+        Resources res = getResources();
+        names = res.getStringArray(R.array.names);
 
         return root;
     }
@@ -81,115 +86,152 @@ public class HomeFragment extends Fragment {
         @Override
         public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
             int randomSwitch = (int) (Math.random() * 36);
+            int randomNameID = (int) (Math.random() * 36);
 
             isChecked = Math.random() < 0.3;
             switch (randomSwitch) {
                 case 0:
+                    switch00.setText(names[randomNameID]);
                     switch00.setChecked(isChecked);
                     break;
                 case 1:
+                    switch01.setText(names[randomNameID]);
                     switch01.setChecked(isChecked);
                     break;
                 case 2:
+                    switch02.setText(names[randomNameID]);
                     switch02.setChecked(isChecked);
                     break;
                 case 3:
+                    switch03.setText(names[randomNameID]);
                     switch03.setChecked(isChecked);
                     break;
                 case 4:
+                    switch04.setText(names[randomNameID]);
                     switch04.setChecked(isChecked);
                     break;
                 case 5:
+                    switch05.setText(names[randomNameID]);
                     switch05.setChecked(isChecked);
                     break;
                 case 6:
+                    switch06.setText(names[randomNameID]);
                     switch06.setChecked(isChecked);
                     break;
                 case 7:
+                    switch07.setText(names[randomNameID]);
                     switch07.setChecked(isChecked);
                     break;
                 case 8:
+                    switch08.setText(names[randomNameID]);
                     switch08.setChecked(isChecked);
                     break;
                 case 9:
+                    switch09.setText(names[randomNameID]);
                     switch09.setChecked(isChecked);
                     break;
                 case 10:
+                    switch10.setText(names[randomNameID]);
                     switch10.setChecked(isChecked);
                     break;
                 case 11:
+                    switch11.setText(names[randomNameID]);
                     switch11.setChecked(isChecked);
                     break;
                 case 12:
+                    switch12.setText(names[randomNameID]);
                     switch12.setChecked(isChecked);
                     break;
                 case 13:
+                    switch13.setText(names[randomNameID]);
                     switch13.setChecked(isChecked);
                     break;
                 case 14:
+                    switch14.setText(names[randomNameID]);
                     switch14.setChecked(isChecked);
                     break;
                 case 15:
+                    switch15.setText(names[randomNameID]);
                     switch15.setChecked(isChecked);
                     break;
                 case 16:
+                    switch16.setText(names[randomNameID]);
                     switch16.setChecked(isChecked);
                     break;
                 case 17:
+                    switch17.setText(names[randomNameID]);
                     switch17.setChecked(isChecked);
                     break;
                 case 18:
+                    switch18.setText(names[randomNameID]);
                     switch18.setChecked(isChecked);
                     break;
                 case 19:
+                    switch19.setText(names[randomNameID]);
                     switch19.setChecked(isChecked);
                     break;
                 case 20:
+                    switch20.setText(names[randomNameID]);
                     switch20.setChecked(isChecked);
                     break;
                 case 21:
+                    switch21.setText(names[randomNameID]);
                     switch21.setChecked(isChecked);
                     break;
                 case 22:
+                    switch22.setText(names[randomNameID]);
                     switch22.setChecked(isChecked);
                     break;
                 case 23:
+                    switch23.setText(names[randomNameID]);
                     switch23.setChecked(isChecked);
                     break;
                 case 24:
+                    switch24.setText(names[randomNameID]);
                     switch24.setChecked(isChecked);
                     break;
                 case 25:
+                    switch25.setText(names[randomNameID]);
                     switch25.setChecked(isChecked);
                     break;
                 case 26:
+                    switch26.setText(names[randomNameID]);
                     switch26.setChecked(isChecked);
                     break;
                 case 27:
+                    switch27.setText(names[randomNameID]);
                     switch27.setChecked(isChecked);
                     break;
                 case 28:
+                    switch28.setText(names[randomNameID]);
                     switch28.setChecked(isChecked);
                     break;
                 case 29:
+                    switch29.setText(names[randomNameID]);
                     switch29.setChecked(isChecked);
                     break;
                 case 30:
+                    switch30.setText(names[randomNameID]);
                     switch30.setChecked(isChecked);
                     break;
                 case 31:
+                    switch31.setText(names[randomNameID]);
                     switch31.setChecked(isChecked);
                     break;
                 case 32:
+                    switch32.setText(names[randomNameID]);
                     switch32.setChecked(isChecked);
                     break;
                 case 33:
+                    switch33.setText(names[randomNameID]);
                     switch33.setChecked(isChecked);
                     break;
                 case 34:
+                    switch34.setText(names[randomNameID]);
                     switch34.setChecked(isChecked);
                     break;
                 case 35:
+                    switch35.setText(names[randomNameID]);
                     switch35.setChecked(isChecked);
             }
         }
