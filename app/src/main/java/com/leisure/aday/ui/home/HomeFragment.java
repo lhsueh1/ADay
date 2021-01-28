@@ -234,6 +234,8 @@ public class HomeFragment extends Fragment {
                     switch35.setText(names[randomNameID]);
                     switch35.setChecked(isChecked);
             }
+
+            buttonView.setText(R.string.nav_header_title);
         }
     };
 
