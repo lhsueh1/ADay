@@ -85,7 +85,7 @@ public class HomeFragment extends Fragment {
         return root;
     }
 
-    private CompoundButton.OnCheckedChangeListener switchListener = new CompoundButton.OnCheckedChangeListener() {
+    private final CompoundButton.OnCheckedChangeListener switchListener = new CompoundButton.OnCheckedChangeListener() {
         @Override
         public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
             int randomSwitch = (int) (Math.random() * 36);
