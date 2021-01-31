@@ -3,7 +3,6 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
         android:id="@+id/action_settings"
-        android:iconTint="#B64C4C"
         android:orderInCategory="100"
         android:title="@string/action_settings"
         app:popupTheme="@style/setting"

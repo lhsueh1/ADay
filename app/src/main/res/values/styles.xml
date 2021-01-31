@@ -3,5 +3,6 @@
 
     <style name="setting" parent="ThemeOverlay.AppCompat.Light">
         <item name="android:background">@android:color/white</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
     </style>
 </resources>
