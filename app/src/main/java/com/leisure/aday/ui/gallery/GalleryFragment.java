@@ -55,77 +55,8 @@ public class GalleryFragment extends Fragment {
     }
 
 
-    public static class Contact {
-        private String mName;
-        private boolean mOnline;
-
-        public Contact(String name, boolean online) {
-            mName = name;
-            mOnline = online;
-        }
-
-        public String getName() {
-            return mName;
-        }
-
-        public boolean isOnline() {
-            return mOnline;
-        }
-
-        private static int lastContactId = 0;
-
-        public static ArrayList<Contact> createContactsList(int numContacts) {
-            ArrayList<Contact> contacts = new ArrayList<Contact>();
-
-            for (int i = 1; i <= numContacts; i++) {
-                contacts.add(new Contact("Person " + ++lastContactId, i <= numContacts / 2));
-            }
-
-            return contacts;
-        }
 
 
-
-
-
-    }
-
-    public class ContactsAdapter extends RecyclerView.Adapter<ContactsAdapter.ViewHolder> {
-        private LayoutInflater mInflater;
-        private ArrayList<Contact> mContacts;
-        public ContactsAdapter(Context context, ArrayList<Contact> contacts) {
-            this.mInflater = LayoutInflater.from(context);
-            this.mContacts = contacts;
-        }
-        @Override
-        public ViewHolder OnCreateViewHolder(ViewGroup parent, int viewType) {
-            View view = mInflater.inflate(R.layout.item, parent, false);
-            return new ViewHolder(view);
-        }
-        @Override
-        public void onBindViewHolder(ViewHolder holder, int position) {
-            String name = mContacts.get(position).mName;
-            holder.myTextView.setText(name);
-        }
-        @Override
-        public int getItemCount(){
-            return mContacts.size();
-        }
-        public class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
-            TextView myTextView;
-            ViewHolder(View itemView) {
-                super(itemView);
-                myTextView = itemView.findViewById(R.id.contact_name);
-            }
-            @Override
-            public void onClick(View view){
-            }
-        }
-        public String getItem(int id){
-            return mContacts.get(id).mName;
-        }
-
-    }
 
 
 
@@ -230,3 +161,5 @@ public class GalleryFragment extends Fragment {
 
 
 }
+
+
