@@ -10,9 +10,11 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
+import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.leisure.aday.R;
@@ -30,12 +32,25 @@ public class GalleryFragment extends Fragment {
                 new ViewModelProvider(this).get(GalleryViewModel.class);
         View root = inflater.inflate(R.layout.fragment_gallery, container, false);
         final TextView textView = root.findViewById(R.id.text_gallery);
-        galleryViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
-            @Override
-            public void onChanged(@Nullable String s) {
-                textView.setText(s);
-            }
-        });
+
+        super.onCreate(savedInstanceState);
+
+
+        // Lookup the recyclerview in activity layout
+        RecyclerView rvContacts = root.findViewById(R.id.r1);
+
+        // Initialize contacts
+        ArrayList<Contact> contacts;
+        contacts = Contact.createContactsList(20);
+        // Create adapter passing in the sample user data
+        ContactsAdapter adapter;
+        adapter = new ContactsAdapter(getActivity(), contacts);
+        // Attach the adapter to the recyclerview to populate items
+        rvContacts.setAdapter(adapter);
+        // Set layout manager to position the items
+
+
+
         return root;
     }
 
@@ -75,7 +90,49 @@ public class GalleryFragment extends Fragment {
 
     }
 
-    public abstract class ContactsAdapter extends RecyclerView.Adapter<ContactsAdapter.ViewHolder> {
+    public class ContactsAdapter extends RecyclerView.Adapter<ContactsAdapter.ViewHolder> {
+        private LayoutInflater mInflater;
+        private ArrayList<Contact> mContacts;
+        public ContactsAdapter(Context context, ArrayList<Contact> contacts) {
+            this.mInflater = LayoutInflater.from(context);
+            this.mContacts = contacts;
+        }
+        @Override
+        public ViewHolder OnCreateViewHolder(ViewGroup parent, int viewType) {
+            View view = mInflater.inflate(R.layout.item, parent, false);
+            return new ViewHolder(view);
+        }
+        @Override
+        public void onBindViewHolder(ViewHolder holder, int position) {
+            String name = mContacts.get(position).mName;
+            holder.myTextView.setText(name);
+        }
+        @Override
+        public int getItemCount(){
+            return mContacts.size();
+        }
+        public class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
+            TextView myTextView;
+            ViewHolder(View itemView) {
+                super(itemView);
+                myTextView = itemView.findViewById(R.id.contact_name);
+            }
+            @Override
+            public void onClick(View view){
+            }
+        }
+        public String getItem(int id){
+            return mContacts.get(id).mName;
+        }
+
+    }
+
+
+
+
+
+
+    /*public class ContactsAdapter1 extends RecyclerView.Adapter<ContactsAdapter1.ViewHolder> {
 
         // Provide a direct reference to each of the views within a data item
         // Used to cache the views within the item layout for fast access
@@ -101,11 +158,11 @@ public class GalleryFragment extends Fragment {
         private List<Contact> mContacts;
 
         // Pass in the contact array into the constructor
-        public ContactsAdapter(List<Contact> contacts) {
+        public ContactsAdapter1(List<Contact> contacts) {
             mContacts = contacts;
         }
         @Override
-        public ContactsAdapter.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+        public ContactsAdapter1.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
             Context context = parent.getContext();
             LayoutInflater inflater = LayoutInflater.from(context);
 
@@ -116,10 +173,10 @@ public class GalleryFragment extends Fragment {
             ViewHolder viewHolder = new ViewHolder(contactView);
             return viewHolder;
         }
-//kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
+
         // Involves populating data into the item through holder
         @Override
-        public void onBindViewHolder(ContactsAdapter.ViewHolder holder, int position) {
+        public void onBindViewHolder(ContactsAdapter1.ViewHolder holder, int position) {
             // Get the data model based on position
             Contact contact = mContacts.get(position);
 
@@ -137,7 +194,32 @@ public class GalleryFragment extends Fragment {
             return mContacts.size();
         }
 
-    }
+    }*/
+
+    /*public class UserListActivity extends AppCompatActivity {
+
+        ArrayList<Contact> contacts;
+
+        @Override
+        protected void onCreate(Bundle savedInstanceState) {
+            // ...
+            super.onCreate(savedInstanceState);
+            setContentView(R.layout.fragment_gallery);
+
+            // Lookup the recyclerview in activity layout
+            RecyclerView rvContacts = (RecyclerView) findViewById(R.id.r1);
+
+            // Initialize contacts
+            contacts = Contact.createContactsList(20);
+            // Create adapter passing in the sample user data
+            ContactsAdapter adapter = new ContactsAdapter(contacts);
+            // Attach the adapter to the recyclerview to populate items
+            rvContacts.setAdapter(adapter);
+            // Set layout manager to position the items
+            rvContacts.setLayoutManager(new LinearLayoutManager(this));
+            // That's all!
+        }
+    }*/
 
 
 
