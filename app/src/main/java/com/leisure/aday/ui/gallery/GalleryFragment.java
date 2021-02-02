@@ -31,13 +31,14 @@ public class GalleryFragment extends Fragment {
         galleryViewModel =
                 new ViewModelProvider(this).get(GalleryViewModel.class);
         View root = inflater.inflate(R.layout.fragment_gallery, container, false);
-        final TextView textView = root.findViewById(R.id.text_gallery);
+
 
         super.onCreate(savedInstanceState);
 
 
         // Lookup the recyclerview in activity layout
         RecyclerView rvContacts = root.findViewById(R.id.r1);
+        rvContacts.setLayoutManager(new LinearLayoutManager(getContext()));
 
         // Initialize contacts
         ArrayList<Contact> contacts;
@@ -48,9 +49,10 @@ public class GalleryFragment extends Fragment {
         // Attach the adapter to the recyclerview to populate items
         rvContacts.setAdapter(adapter);
         // Set layout manager to position the items
-        rvContacts.setLayoutManager(new LinearLayoutManager(getContext());
 
-
+        for (Contact contact: contacts) {
+            System.out.println(contact.getName());
+        }
 
         return root;
     }
