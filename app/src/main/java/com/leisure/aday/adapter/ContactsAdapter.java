@@ -1,4 +1,4 @@
-package com.leisure.aday.ui.gallery;
+package com.leisure.aday.adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -10,6 +10,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.leisure.aday.R;
+import com.leisure.aday.ui.gallery.Contact;
 
 import java.util.ArrayList;
 
