@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.leisure.aday.R;
@@ -19,11 +20,14 @@ public class ContactsAdapter extends RecyclerView.Adapter<ContactsAdapter.ViewHo
         this.mInflater = LayoutInflater.from(context);
         this.mContacts = contacts;
     }
+
+    @NonNull
     @Override
-    public ViewHolder OnCreateViewHolder(ViewGroup parent, int viewType) {
+    public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View view = mInflater.inflate(R.layout.item, parent, false);
         return new ViewHolder(view);
     }
+
     @Override
     public void onBindViewHolder(ViewHolder holder, int position) {
         String name = mContacts.get(position).getName();
