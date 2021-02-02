@@ -48,6 +48,7 @@ public class GalleryFragment extends Fragment {
         // Attach the adapter to the recyclerview to populate items
         rvContacts.setAdapter(adapter);
         // Set layout manager to position the items
+        rvContacts.setLayoutManager(new LinearLayoutManager(getContext());
 
 
 

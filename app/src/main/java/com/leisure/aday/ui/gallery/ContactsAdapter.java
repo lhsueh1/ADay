@@ -12,14 +12,14 @@ import com.leisure.aday.R;
 
 import java.util.ArrayList;
 
-public class ContactsAdapter extends RecyclerView.Adapter<ContactsAdapter.ViewHolder> {
+public abstract class ContactsAdapter extends RecyclerView.Adapter<ContactsAdapter.ViewHolder> {
     private LayoutInflater mInflater;
     private ArrayList<Contact> mContacts;
     public ContactsAdapter(Context context, ArrayList<Contact> contacts) {
         this.mInflater = LayoutInflater.from(context);
         this.mContacts = contacts;
     }
-    @Override
+    //@Override
     public ViewHolder OnCreateViewHolder(ViewGroup parent, int viewType) {
         View view = mInflater.inflate(R.layout.item, parent, false);
         return new ViewHolder(view);
